@@ -1,0 +1,61 @@
+{
+ "id": "./",
+ "name": "Family Tree",
+ "short_name": "Family Tree",
+ "description": "বংশীয় আর্কাইভ",
+ "lang": "bn",
+ "dir": "ltr",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#0B6B3A",
+ "theme_color": "#0B6B3A",
+ "categories": [
+  "lifestyle",
+  "social"
+ ],
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-maskable-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "maskable"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "display_override": [
+  "standalone",
+  "minimal-ui"
+ ],
+ "launch_handler": {
+  "client_mode": [
+   "focus-existing",
+   "auto"
+  ]
+ },
+ "prefer_related_applications": false,
+ "related_applications": [
+  {
+   "platform": "webapp",
+   "url": "https://noyabarigen.pages.dev/manifest.webmanifest"
+  }
+ ]
+}

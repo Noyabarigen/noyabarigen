@@ -1,0 +1,1 @@
+window.FT_CFG={intro:true,api:"https://script.google.com/macros/s/AKfycbwWtBEeCuIcL8JCk_L9L7Y_RQ0c1CBA_S9XUJUBz4GJTztGotQ7i0OZgfjbR1E4MA8c/exec",push:"/api"};
